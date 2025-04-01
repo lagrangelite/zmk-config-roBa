@@ -86,10 +86,10 @@
 
         Func {
             bindings = <
-&kp F10  &kp F9  &kp F8  &kp F7  &trans                              &trans    &trans      &trans     &trans   &trans
-&kp F11  &kp F6  &kp F5  &kp F4  &kp LANG1       &none       &trans  &mkp MB4  &trans      &trans     &trans   &trans
-&kp F12  &kp F3  &kp F2  &kp F1  &kp LANGUAGE_2  &none       &trans  &trans    &kp PERIOD  &kp COMMA  &kp SQT  &trans
-&trans   &trans  &trans  &trans  &trans          &trans      &trans  &trans                                    &trans
+&kp F10  &kp F9  &kp F8  &kp F7  &trans                         &trans    &trans      &trans     &trans   &trans
+&kp F11  &kp F6  &kp F5  &kp F4  &kp LANG2  &none       &trans  &mkp MB4  &trans      &trans     &trans   &trans
+&kp F12  &kp F3  &kp F2  &kp F1  &kp LANG1  &none       &trans  &trans    &kp PERIOD  &kp COMMA  &kp SQT  &trans
+&trans   &trans  &trans  &trans  &trans     &trans      &trans  &trans                                    &trans
             >;
         };
     };
