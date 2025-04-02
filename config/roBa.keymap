@@ -73,7 +73,7 @@
 &mo 3          &kp GRAVE  &kp SLASH  &kp LEFT_ALT  &mt LEFT_SHIFT SPACE  &mt LCTRL TAB      &mo 2  &mo 1                                   &kp RIGHT_WIN
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp A B>;
         };
 
         Num {
