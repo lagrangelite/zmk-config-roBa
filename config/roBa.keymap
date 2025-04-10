@@ -114,10 +114,10 @@
 
         Scroll {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans    &kp ESC       &kp DEL        &trans                         &trans  &trans     &trans  &trans         &trans
+&trans  &kp LEFT  &kp UP_ARROW  &kp DOWN       &kp RIGHT  &trans      &trans  &trans  &trans     &trans  &trans         &trans
+&trans  &kp END   &kp PAGE_UP   &kp PAGE_DOWN  &kp HOME   &trans      &trans  &trans  &kp ENTER  &none   &kp BACKSPACE  &trans
+&trans  &trans    &trans        &trans         &trans     &trans      &trans  &trans                                    &trans
             >;
         };
     };
