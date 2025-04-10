@@ -67,10 +67,10 @@
 
         default_layer {
             bindings = <
-&kp V          &kp W      &kp M      &kp P         &kp Y                                                  &kp F  &kp G      &kp C      &kp R      &kp L
-&kp A          &kp O      &kp E      &kp U         &kp I                 &none              &kp UP_ARROW  &kp D  &kp H      &kp T      &kp N      &kp S
-&kp SEMICOLON  &kp Q      &kp J      &kp K         &kp X                 &kp ENTER          &kp DOWN      &kp B  &mkp LCLK  &mkp MCLK  &mkp RCLK  &kp Z
-&mo 3          &kp GRAVE  &kp SLASH  &kp LEFT_ALT  &mt LEFT_SHIFT SPACE  &mt LCTRL TAB      &mo 2         &mo 1                                   &kp RIGHT_WIN
+&kp V          &kp W      &kp M      &kp P         &kp Y                                                  &kp F  &kp G      &kp C  &kp R      &kp L
+&kp A          &kp O      &kp E      &kp U         &kp I                 &none              &kp UP_ARROW  &kp D  &kp H      &kp T  &kp N      &kp S
+&kp SEMICOLON  &kp Q      &kp J      &kp K         &kp X                 &kp ENTER          &kp DOWN      &kp B  &mkp LCLK  &mo 5  &mkp RCLK  &kp Z
+&mo 3          &kp GRAVE  &kp SLASH  &kp LEFT_ALT  &mt LEFT_SHIFT SPACE  &mt LCTRL TAB      &mo 2         &mo 1                               &kp RIGHT_WIN
             >;
 
             sensor-bindings = <&inc_dec_kp UP DOWN>, <&inc_dec_kp UP DOWN>;
@@ -100,6 +100,24 @@
 &trans  &trans        &trans        &bt BT_SEL 4  &bt BT_SEL 0  &trans      &bt BT_CLR_ALL  &trans  &trans  &trans  &trans  &trans
 &trans  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &trans        &trans      &bt BT_CLR      &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans        &trans        &trans        &trans      &trans          &trans                          &trans
+            >;
+        };
+
+        Empty {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+            >;
+        };
+
+        Scroll {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
     };
