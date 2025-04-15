@@ -115,7 +115,7 @@
         Scroll {
             bindings = <
 &trans  &none  &none  &none   &none                       &none           &none      &none  &none          &trans
-&trans  &none  &none  &none   &none   &trans      &trans  &kp PAGE_UP     &kp ESC    &none  &kp DEL        &kp PAGE_DOWN
+&trans  &none  &none  &none   &none   &trans      &trans  &kp PAGE_DOWN   &kp ESC    &none  &kp DEL        &kp PAGE_UP
 &trans  &none  &none  &none   &none   &trans      &trans  &kp LEFT_ARROW  &kp ENTER  &none  &kp BACKSPACE  &kp RIGHT_ARROW
 &trans  &none  &none  &trans  &trans  &trans      &trans  &trans                                           &trans
             >;
