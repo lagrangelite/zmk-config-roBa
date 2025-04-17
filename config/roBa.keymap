@@ -68,8 +68,8 @@
         default_layer {
             bindings = <
 &kp V          &kp W      &kp M      &kp P         &kp Y                                                  &kp F  &kp G      &kp C  &kp R      &kp L
-&kp A          &kp O      &kp E      &kp U         &kp I                 &none              &kp UP_ARROW  &kp D  &kp H      &kp T  &kp N      &kp S
-&kp SEMICOLON  &kp Q      &kp J      &kp K         &kp X                 &kp ENTER          &kp DOWN      &kp B  &mkp LCLK  &mo 5  &mkp RCLK  &kp Z
+&kp A          &kp O      &kp E      &kp U         &kp I                 &kp PAGE_UP        &kp UP_ARROW  &kp D  &kp H      &kp T  &kp N      &kp S
+&kp SEMICOLON  &kp Q      &kp J      &kp K         &kp X                 &kp PAGE_DOWN      &kp DOWN      &kp B  &mkp LCLK  &mo 5  &mkp RCLK  &kp Z
 &mo 3          &kp GRAVE  &kp SLASH  &kp LEFT_ALT  &mt LEFT_SHIFT SPACE  &mt LCTRL TAB      &mo 2         &mo 1                               &kp RIGHT_WIN
             >;
 
@@ -114,10 +114,10 @@
 
         Scroll {
             bindings = <
-&trans  &none  &none  &none   &none                       &none           &none      &none  &none          &trans
-&trans  &none  &none  &none   &none   &trans      &trans  &kp PAGE_DOWN   &kp ESC    &none  &kp DEL        &kp PAGE_UP
-&trans  &none  &none  &none   &none   &trans      &trans  &kp LEFT_ARROW  &kp ENTER  &none  &kp BACKSPACE  &kp RIGHT_ARROW
-&trans  &none  &none  &trans  &trans  &trans      &trans  &trans                                           &trans
+&trans  &none  &none  &none   &none                       &none     &none      &none  &none          &trans
+&trans  &none  &none  &none   &none   &trans      &trans  &kp HOME  &kp LEFT   &none  &kp RIGHT      &kp END
+&trans  &none  &none  &none   &none   &trans      &trans  &kp DEL   &kp ENTER  &none  &kp BACKSPACE  &kp ESCAPE
+&trans  &none  &none  &trans  &trans  &trans      &trans  &trans                                     &trans
             >;
         };
     };
