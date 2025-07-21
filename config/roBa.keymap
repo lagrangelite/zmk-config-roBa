@@ -73,7 +73,7 @@
 &mo 3          &kp GRAVE  &kp SLASH  &mt LEFT_ALT ESCAPE  &mt LEFT_SHIFT SPACE  &mt LCTRL TAB      &mo 2          &mo 1                               &kp RIGHT_WIN
             >;
 
-            sensor-bindings = <&inc_dec_kp UP DOWN>, <&inc_dec_kp UP DOWN>;
+            sensor-bindings = <&inc_dec_kp UP DOWN>;
         };
 
         Num {
@@ -114,10 +114,10 @@
 
         Scroll {
             bindings = <
-&trans  &none  &none  &none   &none                       &none     &none           &none  &none         &trans
-&trans  &none  &none  &none   &none   &trans      &trans  &kp HOME  &kp PAGE_DOWN   &none  &kp PAGE_UP   &kp END
-&trans  &none  &none  &none   &none   &trans      &trans  &kp LEFT  &kp DOWN_ARROW  &none  &kp UP_ARROW  &kp RIGHT
-&trans  &none  &none  &trans  &trans  &trans      &trans  &trans                                         &trans
+&trans  &none  &none  &none   &none                       &none          &none           &none  &none         &trans
+&trans  &none  &none  &none   &none   &trans      &trans  &kp HOME       &kp LEFT        &none  &kp RIGHT     &kp END
+&trans  &none  &none  &none   &none   &trans      &trans  &kp PAGE_DOWN  &kp DOWN_ARROW  &none  &kp UP_ARROW  &kp PAGE_UP
+&trans  &none  &none  &trans  &trans  &trans      &trans  &trans                                              &trans
             >;
         };
     };
