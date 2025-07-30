@@ -87,10 +87,10 @@
 
         Func {
             bindings = <
-&kp APOS  &kp COMMA  &kp PERIOD  &none   &none                       &none   &none  &kp SPACE   &kp TAB  &none
-&none     &none      &none       &none   &none   &trans      &trans  &none   &none  &kp DELETE  &kp INS  &none
-&none     &none      &none       &none   &none   &trans      &trans  &none   &none  &none       &none    &none
-&none     &none      &none       &trans  &trans  &trans      &trans  &trans                              &trans
+&kp APOS  &kp COMMA  &kp PERIOD  &none   &none                       &none     &none  &kp SPACE   &kp TAB        &none
+&none     &kp GRAVE  &kp SLASH   &none   &none   &trans      &trans  &mkp MB4  &none  &kp DELETE  &kp INS        &none
+&none     &none      &none       &none   &none   &trans      &trans  &none     &none  &kp ENTER   &kp BACKSPACE  &none
+&none     &none      &none       &trans  &trans  &trans      &trans  &trans                                      &trans
             >;
         };
 
