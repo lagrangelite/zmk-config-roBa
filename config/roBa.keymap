@@ -93,6 +93,86 @@
             bindings = <&kp COMMA>;
             key-positions = <12 11>;
         };
+
+        cmbSemiColon {
+            bindings = <&kp SEMI>;
+            key-positions = <11 13>;
+        };
+
+        cmbRctrl {
+            bindings = <&kp RCTRL>;
+            key-positions = <6 18>;
+        };
+
+        cmbRshift1 {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <7 19>;
+        };
+
+        cmbRMo1 {
+            bindings = <&mo 1>;
+            key-positions = <8 20>;
+        };
+
+        cmbRalt {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <18 30>;
+        };
+
+        cmbRshift2 {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <19 31>;
+        };
+
+        cmbRgui {
+            bindings = <&kp RGUI>;
+            key-positions = <20 32>;
+        };
+
+        cmbLctrl {
+            bindings = <&kp LCTRL>;
+            key-positions = <3 13>;
+        };
+
+        cmbLshift1 {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <2 12>;
+        };
+
+        cmbLmo1 {
+            bindings = <&mo 1>;
+            key-positions = <11 1>;
+        };
+
+        cmbLalt {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <13 25>;
+        };
+
+        cmbLshift2 {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <12 24>;
+        };
+
+        cmbLgui {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <11 23>;
+        };
+
+        cmbMouseScrollUp2 {
+            bindings = <&msc SCRL_UP>;
+            key-positions = <31 30>;
+        };
+
+        cmbMouseScrollDown2 {
+            bindings = <&msc SCRL_DOWN>;
+            key-positions = <31 32>;
+        };
+
+        cmbM4_2 {
+            bindings = <&mkp MB4>;
+            key-positions = <30 32>;
+        };
     };
 
     macros {
@@ -131,10 +211,10 @@
 
         Num {
             bindings = <
-&kp RIGHT_BRACKET  &kp NUMBER_9  &kp NUMBER_8  &kp NUMBER_7  &kp MINUS                         &none           &kp F7  &kp F8  &kp F9  &kp F10
-&kp LEFT_BRACKET   &kp NUMBER_6  &kp NUMBER_5  &kp NUMBER_4  &kp NUMBER_0  &trans      &trans  &kp LANGUAGE_2  &kp F4  &kp F5  &kp F6  &kp F11
-&kp BACKSLASH      &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp EQUAL     &trans      &trans  &kp LANG1       &kp F1  &kp F2  &kp F3  &kp F12
-&none              &none         &none         &trans        &trans        &trans      &trans  &trans                                  &trans
+&kp RIGHT_BRACKET  &kp NUMBER_9  &kp NUMBER_8  &kp NUMBER_7  &kp MINUS                         &kp SLASH  &kp F7  &kp F8  &kp F9  &kp F10
+&kp LEFT_BRACKET   &kp NUMBER_6  &kp NUMBER_5  &kp NUMBER_4  &kp NUMBER_0  &trans      &trans  &kp SQT    &kp F4  &kp F5  &kp F6  &kp F11
+&kp BACKSLASH      &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp EQUAL     &trans      &trans  &kp GRAVE  &kp F1  &kp F2  &kp F3  &kp F12
+&none              &none         &none         &trans        &trans        &trans      &trans  &trans                             &trans
             >;
         };
 
