@@ -44,13 +44,13 @@
             key-positions = <18 20>;
         };
 
-        cmbMouseScrollUp {
-            bindings = <&msc SCRL_UP>;
+        cmbMinus {
+            bindings = <&kp MINUS>;
             key-positions = <6 7>;
         };
 
-        cmbMouseScrollDown {
-            bindings = <&msc SCRL_DOWN>;
+        cmbEqual {
+            bindings = <&kp EQUAL>;
             key-positions = <7 8>;
         };
 
@@ -172,6 +172,21 @@
         cmbM4_2 {
             bindings = <&mkp MB4>;
             key-positions = <30 32>;
+        };
+
+        cmbSlash {
+            bindings = <&kp SLASH>;
+            key-positions = <25 24>;
+        };
+
+        cmbApos {
+            bindings = <&kp SQT>;
+            key-positions = <24 23>;
+        };
+
+        cmbTilde {
+            bindings = <&kp GRAVE>;
+            key-positions = <25 23>;
         };
     };
 
